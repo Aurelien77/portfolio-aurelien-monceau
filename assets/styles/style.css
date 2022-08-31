@@ -279,11 +279,88 @@ header h2 {
 .project.is-inview::before {
   width: 0;
 }
+
+#p1 {
+  margin-left: 8vw;
+  
+}
+#p1 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
+}
 #p2 {
   margin: 0 6vw 0 auto;
 }
+#p2 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
+}
 #p3 {
   margin-left: 8vw;
+}
+#p3 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
+}
+#p4 {
+  margin: 0 6vw 0 auto;
+
+}
+#p4 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
+}
+#p5 {
+  margin-left: 8vw;
+}
+
+#p5 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
+}
+#p6 {
+  margin: 0 6vw 0 auto;
+
+}
+#p6 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
+}
+
+#p7 {
+  margin-left: 10vw;
+
+}
+#p7 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
+}
+
+#p8 {
+  margin: 0 10vw 0 auto;
+
+}
+#p8 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
+}
+
+#p9 {
+  margin-left: 8vw;
+
+}
+#p9 img {
+  box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
+  border-radius: 10%;
+  border: 1px solid gold;
 }
 .project img {
   transition: 0.4s ease-out;
