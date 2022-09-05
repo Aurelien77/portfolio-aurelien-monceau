@@ -24,11 +24,22 @@ body {
   background: #000101;
   color: #fefeff;
   transition: 0.7s ease-in-out;
+  
 }
 .wrapper {
   perspective: 900px;
 }
+.text {
 
+
+color: black;
+
+}
+#revesdemusiques {
+
+font-size: 2rem;
+
+}
 #js {
   font-size: 4rem;
   
@@ -83,6 +94,25 @@ height: 20%;
   
 }
 #sass img {
+margin-left: 5%;
+width: 10%;
+height: 10%;
+}
+
+#postman {
+  font-size: 4rem;
+  
+}
+#postman img {
+margin-left: 5%;
+width: 10%;
+height: 10%;
+}
+#seo {
+  font-size: 4rem;
+  
+}
+#seo img {
 margin-left: 5%;
 width: 10%;
 height: 10%;
@@ -258,15 +288,20 @@ header h2 {
   margin: 200px 0;
 }
 .projects-container {
+ 
+ 
+  z-index: 0;
   margin-top: 100px;
 }
 .project {
+  
   position: relative;
   width: 60vw;
   max-width: 600px;
   margin: 50px 5vw;
 }
 .project::before {
+ 
   content: "";
   position: absolute;
   height: 110%;
@@ -282,14 +317,26 @@ header h2 {
 
 #p1 {
   margin-left: 8vw;
-  
+ 
+  z-index: 30;
+ 
 }
 #p1 img {
   box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
   border-radius: 10%;
   border: 1px solid gold;
 }
+
+#p1 span {
+background-color: white;
+padding: 2%;
+border-radius: 5%;
+box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+}
+
+
 #p2 {
+  z-index: 29;
   margin: 0 6vw 0 auto;
 }
 #p2 img {
@@ -297,15 +344,30 @@ header h2 {
   border-radius: 10%;
   border: 1px solid gold;
 }
+#p2 span {
+  background-color: white;
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+  }
 #p3 {
+  z-index: 28;
   margin-left: 8vw;
+  color: black;
 }
 #p3 img {
   box-shadow: 2px 2px 1px 5px rgba(0, 0, 255, .2);
   border-radius: 10%;
   border: 1px solid gold;
 }
+#p3 span {
+  background-color: white;
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+  }
 #p4 {
+  z-index: 27;
   margin: 0 6vw 0 auto;
 
 }
@@ -314,7 +376,14 @@ header h2 {
   border-radius: 10%;
   border: 1px solid gold;
 }
+#p4 span {
+  background-color: white;
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+  }
 #p5 {
+  z-index: 26;
   margin-left: 8vw;
 }
 
@@ -323,7 +392,14 @@ header h2 {
   border-radius: 10%;
   border: 1px solid gold;
 }
+#p5 span {
+  background-color: white;
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+  }
 #p6 {
+  z-index: 25;
   margin: 0 6vw 0 auto;
 
 }
@@ -332,8 +408,15 @@ header h2 {
   border-radius: 10%;
   border: 1px solid gold;
 }
+#p6 span {
+  background-color: white;
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+  }
 
 #p7 {
+  z-index: 24;
   margin-left: 10vw;
 
 }
@@ -342,8 +425,15 @@ header h2 {
   border-radius: 10%;
   border: 1px solid gold;
 }
+#p7 span {
+  background-color: white;
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+  }
 
 #p8 {
+  z-index: 23;
   margin: 0 10vw 0 auto;
 
 }
@@ -352,8 +442,16 @@ header h2 {
   border-radius: 10%;
   border: 1px solid gold;
 }
+#p8 span {
+  z-index: 22;
+  background-color: white;
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+  }
 
 #p9 {
+  z-index: 21;
   margin-left: 8vw;
 
 }
@@ -362,6 +460,12 @@ header h2 {
   border-radius: 10%;
   border: 1px solid gold;
 }
+#p9 span {
+  background-color: white;
+  padding: 2%;
+  border-radius: 5%;
+  box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
+  }
 .project img {
   transition: 0.4s ease-out;
   width: 100%;
@@ -371,7 +475,7 @@ header h2 {
 }
 .project:hover .project-infos {
   opacity: 1;
-  transform: translate(0, -50%);
+  transform: translate(0, -23%);
 }
 .project-infos {
   position: absolute;
