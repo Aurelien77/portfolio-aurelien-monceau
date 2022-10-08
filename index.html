@@ -16,8 +16,9 @@
     <div data-scroll-container>
       <header data-scroll>
         <div class="links">
-          <a href="https://portfolio-aurelien-monceau.netlify.app" target="_blank" >En savoir plus ?</a>
-          <a href="#portfolio" data-scroll-to>Portfolio</a>
+          <a href="https://portfolio-aurelien-monceau.netlify.app" target="_blank" >Voir mon portfolio</a>
+          <a href="#portfolio" data-scroll-to>Projets d'entreprises</a>
+          <a href="./documents/curriculum_vitae-MONCEAU_Aurelien.pdf" target="_blank">Télécharger le C.V. papier</a>
           <a href="mailto:aurelien.monceau@gmail.com">Contact</a>
         </div>
         <div class="wrapper">
@@ -66,17 +67,23 @@
           <h2>À propos</h2>
         </div>
         <p>
-          A l'âge de 20 ans, après des études d'infographie et de graphismes publicitaires je me suis orienté vers les métiers du support informatique et plus particulièrement dans les milieux bancaires. <br>
-          J'ai pu enrichir mes connaissances, auprès de grands groupes et m'intéresser au monde du developpement. <br>
-          Après avoir effectué des tâches de support informatique et de support de visioconferences je me suis orienté vers le support de machines virtuelles ou, 
-           j'ai pu travaillé en lien étroit avec les incidents managers France et International du Groupe Carrefour dans le but, entre autre, de réaliser des tâches de développement.  <br>
+          A l'âge de 20 ans, après des études d'infographie et de graphismes publicitaires je me suis orienté vers les métiers du support informatique et plus particulièrement pour les milieux bancaires. <br>
+          J'ai pu enrichir mes connaissances, auprès de grands groupes et me suis intéressé au monde du developpement. <br>
+          Après avoir effectué des tâches de support informatique et de support de visioconferences j'ai tenu un post de support de machines virtuelles ou, 
+           j'ai pu travaillé en lien étroit avec les incidents managers France et International du Groupe Carrefour dans le but, entre autre, de réaliser des tâches de développement, PowerShell.  <br>
            Notre équipe composée de quatres personnes avaient, en charge de réaliser des automates afin de simplifier les tâches de maintenances sur les serveurs de machines virtuelles.<br>
            
            Le projet s'articulait autour de normes Agile composées de Sprint d'une semaine. <br>
          C'est un environnement qui m'a beaucoup plus notamment en raison de la récurence des réunions qui permettaient de garder une bonne vision 
           de l'avancer de nos projets <br>
-          J'ai par suite obtenu un diplome de développement WEB Full-Stack.
-
+        J'ai par suite consacré environ deux années à l'approfindissement de notions de developpements et ai obtenu un diplome de développement WEB Full-Stack, Javascript, orienté framework : React-JS. <br>
+        Ce dîplome permet de créer des API rest, applications WEB devisées en trois paries, dont la première partie est le Front-end accessible par les utilisateurs et permettant la gestion de l'affichage de l'application selon leurs permissions.<br>
+        La deuxième partie, le Middleware, gère la sécurité, tel que les jetons de connexions utilisateurs pour l'authentification des utilisateurs sur l'application etc... <br>
+        La troisième partie qui permet d'injecter des données dans une base de donnée au choix ou un server et de les récupérer, grâce à des controllers.<br>
+       J'ai ainsi été amené à injecter des commandes SQL sur une base de donnée ou sur un serveur Cloud Amazon S3 et à me servir du framework Sequelize pour injecter ces données selon un modèle pré-établie. <br>
+Au cours de ma carrière au sein des entreprises pour lesquelles j'ai travaillé, j'ai effectué des tâches de support, d'administration et de développemment ce qui me permet d'agir avec des bases solides pour gérer la résolution de dysfonctionnments, de configuration matériels et logiciels.<br>
+ Je me suis bien vite rendu compte qu'il était important de comprendre les différents aspects du monde du développement WEB et logiciels pour effectué les différentes tâches de façon optimale.<br>
+ 
 
         </p>
       </section>
@@ -274,24 +281,40 @@
           <span data-scroll data-scroll-speed="0">o</span>
         </h2>
 
-
+    
+          <div data-scroll class="portfolio">
+            <p 
+              data-scroll
+              data-scroll-speed="-5"
+              data-scroll-direction="horizontal"
+            ><a href="https://portfolio-aurelien-monceau.netlify.app/profile/1" target="_blank">
+            Plus de détail sur mon portfolio par ici <img src="./assets/img/favicon.ico"/>
+            </p></a>
+          </div>
+  
         <div class="projects-container ">
 
 
+        
 
 
           <div data-scroll data-scroll-speed="1" class="project" id="p1">
             <img src="./assets/img/1reve.png" alt="projet 9" />
-            <div class="project-infos">
+          <!--   <div class="project-infos"> -->
+            <div class="">
               <a href="https://1reve.netlify.app/" target="_blank">1reve </a>
               <p>2022</p>
-              <p> API REACT JS / Tirage de cartes </p>
+              <p> API REACT JS / Site de gestion de coaching </p>
 <br>
-<span classname="text">Continuer d'apprendre tout en voulant créer une application originale. <br> Backend : node JS + orm sequelize, également création de la même partie sans ORM 
-               avec les commandes SQL. <br>
-                Connexion d'un controllers au cloud d'amazone S3 pour pouvoir enregistrer des images / Midlleware pour la sécurité de connexion.
-                Front-end : framework javascript React.<br>
-                Autentification par contexte, authState, Props et handleChange pour le controle des inputs.
+<span classname="text"><u>Cette aplication permet de créer des tirages de cartes et de les poster.</u>  <br>
+  <br> Elle, sert notament à établir le dialogue entre celui qui tire les cartes et celui qui observe.
+  <br> Je l'utilise autour de moi et c'est assez bluffant, l'idée est de faire en sorte que la personne puiise choisir ses propres cartes ou bien qu'elle dispose de cartes libres de droits et qu'elle puisse conserver les interpretations qu'elle à fait de ses tirages au fils du temps.
+  <br>
+  <u>Technologie utilisée :</u> <br>
+  Backend : node JS + orm sequelize + cloud.<br>
+  Middelware : c'est un secret.<br>
+  Front-end : framework javascript React.
+             
  </span>
             </div>
           </div>
@@ -299,78 +322,48 @@
 
           <div data-scroll class="project" id="p2">
             <img src="./assets/img/musique.png" alt="projet 8" />
-            <div class="project-infos">
+            <div class="">
               <a href="https://reves-de-musiques.netlify.app" target="_blank" id="revesdemusiques">Reves-de-musiques</a>
               <p>2022</p>
-              <p>Site de cours de musiques</p>
+              <p>Site de cours de musiques</Site></p>
               <br>
- <span classname="text">Ce site à pour vocation d'aider un professeur de musique à organiser ses cours.<br>
-                C'est une API qui permet de poster des cours en ligne ou des partitions et de les visionner à souhait.
-<br> API REACT.
+ <span classname="text"><u>Ce site permet à un professeur de musique de poster ses cours vidéo et PDF et poster les vidéos des exercices et progressions des élèves.
+  </u>  <br>
+  <u>Technologie utilisée :</u> <br>
+  Backend : node JS + orm Sequelize.<br>
+  Middelware : c'est un secret.<br>
+  Front-end : framework javascript React.
               </span>
             </div>
           </div>
 
 
           <div data-scroll class="project" id="p3">
-            <img src="./assets/img/projet-3.jpg" alt="projet 7" />
-            <div class="project-infos">
-              <a href="https://www.youtube.com/watch?v=PkGCZ61wKuM" target="_blank">Groupomania</a>
+           
+            <div class="">
+            
               <p>2021</p>
-<span classname="text">Projet final, Réalisation d'une API de Réseau social <br>Technologie : React JS.<br>
+<span classname="text">Réalisation de 6 projets pour obtention du diplome Developpeur WEB Full-Stack <br>
+  <a href="https://www.youtube.com/watch?v=PkGCZ61wKuM" target="_blank">Projet 6 : Groupomania, Créez un réseau social d’entreprise. <img src="./assets/img/projet-3.jpg" alt="projet 7" /> </a> <br>
+  <a href="https://www.youtube.com/watch?v=9zX29lEStvQ" target="_blank"> <img src="./assets/img/piquante.jpg" alt="projet 6" />Projet 5 : Piquante,  Construisez une API sécurisée pour une application d'avis gastronomiques </a> <br>
+  <a href="https://www.youtube.com/watch?v=1i7QdH7NkIk" target="_blank"> Projet 4 : Oniroco,  Construisez un site e-commerce en JavaScript  <img src="./assets/img/oniroco.jpg" alt="projet 5" />  </a> <br>
+  <a href="https://aurelien77.github.io/AurelienMonceau_4_20042021" target="_blank">Projet 3 : La chouette agence, Optimisez un site web existant <img src="./assets/img/chouette.jpg" alt="projet 4" />  </a><br>
+  <a href="https://aurelien77.github.io/AurelienMonceau_3_20042021" target="_blank"></a>Projet 2 : Ho My food, Dynamisez une page web avec des animations CSS<img src="./assets/img/food.jpg" alt="projet 3" />  </a> <br>
+  <a href="https://aurelien77.github.io/AurelienMonceau_2_20042021" target="_blank"> Projet 1 :  Reservia, Transformez une maquette en site web avec HTML & CSS<img src="./assets/img/reservia.jpg" alt="projet 2" /></a> <br>
+
 </span>
             </div>
           </div>
 
 
-<div data-scroll class="project" id="p4">
-            <img src="./assets/img/piquante.jpg" alt="projet 6" />
-            <div class="project-infos">
-              <a href="https://www.youtube.com/watch?v=9zX29lEStvQ" target="_blank">Piquante</a>
-              <p>2021</p>
-              <span classname="text">Réalisation du backend d'une API <br>Technologie : Node JS  + EXPRESS</span>
-            </div>
-            </div>
 
 
           
 
 
-          <div data-scroll class="project" id="p5">
-            <img src="./assets/img/oniroco.jpg" alt="projet 5" />
-            <div class="project-infos">
-              <a href="https://www.youtube.com/watch?v=1i7QdH7NkIk" target="_blank">Oniroco</a>
-              <p>2021</p>
-<span classname="text">Réalisation front-end d'un site ecommerce en JS + bootstrap</span>
-            </div>
-          </div>
-<div data-scroll class="project" id="p6">
-            <img src="./assets/img/chouette.jpg" alt="projet 4" />
-            <div class="project-infos">
-              <a href="https://aurelien77.github.io/AurelienMonceau_4_20042021" target="_blank">La chouette agence</a>
-              <p>2021</p>
-<span classname="text">Optimisation du site, SEO</span>
-            </div>
-          </div>
-<div data-scroll class="project" id="p7">
-            <img src="./assets/img/food.jpg" alt="projet 3" />
-            <div class="project-infos">
-              <a href="https://aurelien77.github.io/AurelienMonceau_3_20042021" target="_blank">Ho My food</a>
-              <p>2021</p>
- <span classname="text">Reproduction d'une maquette, html + css + sass</span>
-            </div>
-          </div>
-<div data-scroll class="project" id="p8">
-            <img src="./assets/img/reservia.jpg" alt="projet 2" />
-            <div class="project-infos">
-              <a href="https://aurelien77.github.io/AurelienMonceau_2_20042021" target="_blank"> Reservia</a>
-              <p>2021</p>
- <span classname="text">Reproduction d'une maquette, html + css</span>
-            </div>
-          </div>
  <div data-scroll class="project" id="p9">
             <img src="./assets/img/powershell.jpg" alt="projet 1" />
-            <div class="project-infos">
+            <div class="">
               <a href="https://fr.wikipedia.org/wiki/Windows_PowerShell" target="_blank"> Automate powershell</a>
               <p>2021</p>
 <span classname="text">Automatiser extinction et démarrage de serveurs de machines virtuelles + envoi de rapports par email, powershell</span>

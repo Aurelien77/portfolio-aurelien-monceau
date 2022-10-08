@@ -16,6 +16,10 @@
   background: #000101;
   color: #fefeff;
 }
+.portfolio {
+
+  width: 100%;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -149,8 +153,10 @@ a:visited {
   position: relative;
   text-decoration: none;
   color: #fefeff;
+  -webkit-text-stroke: 0.2px navy;
   transition: 0.1s linear;
   font-size: calc(0.8rem + 0.8vw);
+  text-shadow: 1px 1px 1px rgb(231, 13, 49);
 }
 a::after {
   content: "";
@@ -352,7 +358,7 @@ box-shadow: 3px 3px rgb(204, 199, 199), -0.2em 0 .4em rgb(10, 10, 10);
   }
 #p3 {
   z-index: 28;
-  margin-left: 8vw;
+  margin-left: 30vw;
   color: black;
 }
 #p3 img {
