@@ -8,10 +8,10 @@ const scroll = new LocomotiveScroll({
 // Body color
 scroll.on("scroll", () => {
   if (document.querySelector("#color.is-inview")) {
-    document.body.style.background = "#000101";
-    document.body.style.color = "#fefeff";
+    document.body.style.background = radial-gradient(red, rgb(87, 87, 221));
+    document.body.style.color = fefeff;
   } else {
-    document.body.style.background = "#fefeff";
-    document.body.style.color = "#000101";
+    document.body.style.background = fefeff;
+    document.body.style.color = fefeff;
   }
 });
