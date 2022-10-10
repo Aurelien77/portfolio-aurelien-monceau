@@ -383,6 +383,14 @@ a:hover::after {
     transform: scaleX(1);
   }
 }
+.align {
+display: flex;
+justify-content: center;
+justify-items: center;
+align-items: center;
+align-content: center;
+background: 20%;
+}
 .img {
   height: 395px;
   width: 100vw;
