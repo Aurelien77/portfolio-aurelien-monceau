@@ -19,9 +19,34 @@
 min-width: 100%;
 
   }
-
-
+  #pouce {
+    width: 85vw;
     
+    
+          }
+  .port {
+ 
+  
+    font-size: 1.5rem;
+   
+  }
+.flex3 {
+display: flex;
+flex-direction: column;
+ 
+  flex-wrap: nowrap;
+}
+
+.flex3 a img {
+  width: 20vw;
+  }
+
+  .flex4 {
+   
+    flex-direction: column;
+     
+   
+    }
   }
 html {
   scroll-behavior: smooth;
@@ -172,8 +197,6 @@ justify-content: center;
     line-height: 2rem;
 padding: 1%;
 margin: 2%;
-
-/* width: 40vw; */
    
   }
   .flex3 a img {
@@ -226,6 +249,8 @@ margin-top: 5%;
       
       
       }
+
+
 .wrapper {
   perspective: 900px;
   text-shadow: 2px 2px rgb(53, 8, 177), 
