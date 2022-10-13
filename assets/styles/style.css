@@ -416,9 +416,14 @@ align-items: center;
 align-content: center;
 background: 20%;
 }
+
+.align img {
+  
+  width: 35vw;
+  }
 .img {
   height: 395px;
-  width: 100vw;
+  width: 80vw;
   max-width: 395px;
   margin: 0 auto;
   filter: grayscale(100%);
