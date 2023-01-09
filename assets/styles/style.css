@@ -3564,7 +3564,7 @@ footer a {
 
 /* //////////////////////////////////////////////////// */
 .star {
-  animation: star 10s ease-out forwards;
+  animation: star 30s ease-out forwards;
 }
 .wars {
   font-size: 5rem;
