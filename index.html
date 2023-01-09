@@ -3,6 +3,7 @@
   lang="en"
   class="is-smooth-scroll-compatible is-loaded is-ready has-scroll-init has-scroll-smooth"
 >
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,13 +13,57 @@
     <link rel="stylesheet" href="./assets/lib/locomotive-scroll.min.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
-  <body><div> <div id='stars1' ></div>
-    <div id='stars2'> </div>
-    <div id='stars3'> </div>
-    <div id='stars4'> </div>
-    <div id='stars5'> </div>
+  <body>
+
+
+    
+      <div class="z-3">
+        <div class="tile top-left animate-opacity freq-5">  </div>
+  
+
+   </div>
+    <div id='stars5'> </div> </div>
+        <div class="tile top-right animate-opacity freq-9">  <div id='stars2'>
+          <div class="starwars-demo">
+  
+     
+            <img src="./assets/img/a.gif" alt="Star" class="star">
+       
+            <div class="wars">Bienvenue sur mon C.V </div>
+            <!-- <div class="wars"> Autonomie </div>
+            <div class="wars"> Esprit d'équipe </div> -->
+       <!--       <h2 class="byline" id="byline">The Force Awakens</h2> -->
+           </div>
+   </div></div>
+        <div class="tile bottom-left animate-opacity freq-7"><div id='stars2'></div>
+        <div class="tile bottom-right animate-opacity freq-10"><div id='stars1'></div>
+      </div>
+      <div class="z-2">
+        
+        <div class="tile top-left animate-opacity freq-9 delay-2"> <div id='stars4'> <div id='stars3'></div>
+        <div id='stars5'> </div> </div>
+        <div class="tile top-right animate-opacity freq-5 delay-2">    <div id='stars3'></div> </div></div>
+        <div class="tile bottom-left animate-opacity freq-6 delay-4"></div>
+        <div class="tile bottom-right animate-opacity freq-10 delay-4"></div>
+      </div>
+
+
+
+      
+      <div class="z-1">
+        
+        <div class="tile top-left animate-opacity freq-7 delay-2"> <div id='stars4'><div id='stars3'></div> <div id='stars2'></div>
+         </div>
+        <div class="tile top-right animate-opacity freq-5 delay-4"><div id='stars3'></div>
+        <div class="tile bottom-left animate-opacity freq-9 delay-2"><div id='stars'></div>
+        <div class="tile bottom-right animate-opacity freq-5 delay"></div>
+    
+ 
+
+  </div>
     
     <div data-scroll-container class="global">
+      
       <header data-scroll>
         <div class="links">
           <a href="https://portfolio-aurelien-monceau.netlify.app" target="_blank" >Voir mon portfolio</a>
@@ -60,7 +105,7 @@
         </div>
         <div class="scroll-wrapper">
           <p data-scroll data-scroll-speed="-3" data-scroll-position="top">
-           Merci de Scroller ⬇️ 
+            Merci de Scroller ⬇️ 
           </p>
         </div>
       </header>
@@ -337,7 +382,7 @@ Au cours de ma carrière, dans les entreprises pour lesquelles j'ai travaillé, 
 
 
 
-<!--         <div data-scroll data-scroll-speed="1" class="project" id="p2" >
+     <!--    <div data-scroll data-scroll-speed="1" class="project" id="p2" >
           <img src="./assets/img/musique.png" alt="projet 2" />
           <div class="">
             <a href="https://reves-de-musiques.netlify.app" target="_blank" id="revesdemusiques">Reves-de-musiques</a>
@@ -352,9 +397,9 @@ Middelware : c'est un secret.<br>
 Front-end : framework javascript React.
             </span>
           </div>
-        </div>
+        </div> -->
       </div>
- -->
+
  
    
     
@@ -455,18 +500,19 @@ Front-end : framework javascript React.
             <div class="wrapper margin-top">
               <div data-scroll class="horizontal" data-scroll-speed="8" >
                 <p>Vous avez un projet ?</p>
-              </div>
-            </div>
-            <div class="wrapper">
-              <div data-scroll class="appear"  id="l2">
-            <!--     <p>
-                  Je serai ravi d'en
-                  <a href="mailto:jeanscratch@gmail.com" class="discuter">discuter</a>
-                </p> -->
                
               </div>
-              
             </div>
+
+            <div class="wrapper margin-top">
+              <div data-scroll class="vertical" data-scroll-speed="8" >
+                <p> Je serai ravi d'en
+                  <a href="mailto:jeanscratch@gmail.com" class="discuter">discuter</a></p>
+               
+              </div>
+            </div>
+
+
            
             <div
             data-scroll
@@ -482,18 +528,20 @@ Front-end : framework javascript React.
           </footer>
 
 
-     
+        </div>
         </div>
  </section>
       
         
-
+</div>   
+   
 
    
-    </div>   
+   
   </div>
     <script src="./assets/lib/locomotive-scroll.min.js"></script>
     <script src="./assets/js/index.js"></script>
+    <script src="./stars/index2.js"></script>
 
   </body>
 </html>
