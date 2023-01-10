@@ -3658,7 +3658,7 @@ footer a {
 
 
 .starwars-demo {
-  height: 17em;
+ /*  height: 17em; */
   left: 50%;
   position: absolute;
   top: 30vw;
