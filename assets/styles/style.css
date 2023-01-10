@@ -3649,7 +3649,7 @@ footer a {
 .starwars-demo {
 
   perspective: 800px;
-  top: 50%;
+  top: 30vw;
   left:50%;
   transform-style: preserve3d;
 }
