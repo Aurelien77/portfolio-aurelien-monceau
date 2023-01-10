@@ -3649,7 +3649,7 @@ footer a {
 .starwars-demo {
 
   perspective: 800px;
-  top: 30vw;
+  top: 13vw;
   left:50%;
   transform-style: preserve3d;
 }
@@ -3661,7 +3661,7 @@ footer a {
  /*  height: 17em; */
   left: 50%;
   position: absolute;
-  top: 30vw;
+  top: 13vw;
   transform: translate(-50%, -50%);
   width: 34em;
 }
