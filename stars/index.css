@@ -86,12 +86,12 @@ p {
 
 .z-1{
 
-  position: absolute;
-  width: 150vw;
+ /*  position: absolute; */
+/*   width: 150vw;
   height: 150vw;
   left: -50vw;
-  top: -50vw;
-  transform-origin: center;
+  top: -50vw; */
+  /* transform-origin: center; */
 
 }
 

@@ -3586,7 +3586,7 @@ footer a {
 @keyframes star {
   0% {
     opacity: 0;
-    transform: scale(1.5) translateY(-0.75em);
+    transform: scale(1.5) translateY(-1.75em);
   }
   20% {
     opacity: 1;
@@ -3661,7 +3661,7 @@ footer a {
   height: 17em;
   left: 50%;
   position: absolute;
-  top: 53%;
+  top: 30vw;
   transform: translate(-50%, -50%);
   width: 34em;
 }
